@@ -1,0 +1,111 @@
+body{
+     margin:0px;
+     padding:0px;
+     background-color:rgb(36, 37, 37);
+    
+    }
+h4{
+        padding: 10px;
+        margin: 3px;
+        
+        
+    }
+    
+nav{
+        display:flex;
+        background-color:#2A2a2a;
+        height: 60px;
+        justify-content:initial;
+        align-items:center;
+    }
+    
+nav a{
+        text-decoration: none;
+    color: floralwhite;
+    font-family:'Mukta', sans-serif; 
+}
+
+nav img{
+    height:58px;
+}
+
+nav a:hover{
+    transition: 0.3s;
+   border-bottom: 5px solid blue;
+   
+}
+
+.catalogo{
+    font-family: 'Mukta', sans-serif;
+    background-color: red;
+    display: flex;
+    flex-wrap:wrap
+    
+    
+
+}
+ 
+.Produto{
+    font-family: 'Mukta', sans-serif;
+    display: flex;
+    height:500px;
+    width: 300px;
+    background-color: seagreen;
+    flex-direction: column;
+    border: 3px solid orange;
+    align-items:center;
+    
+    
+
+}
+.Produto img{ 
+    height:310px ;
+    width: 250px;
+    margin-top: 5px;
+  
+}
+
+.Produto button{
+    background-color:rgb(97, 97, 97);
+    color:rgb(241, 241, 241);
+    border-radius: 12%;
+    height: 30px;
+    width: 140px;
+    transition: 0.3s;
+}
+ 
+.Produto button:hover{
+    background-color:rgb(56, 43, 233);    
+}
+
+.Produto h1{
+    color: snow;
+    margin-bottom: 0px;
+    font-size:22px;
+}
+
+.Produto h2{
+    margin: 0px;
+}
+ 
+.lancamento{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+
+}
+
+.lancamento button {
+    background-color:rgb(0, 64, 255)
+    
+
+}
+footer {
+    height: 100px;
+    font-family:'Mukta', sans-serif; 
+    color: lavenderblush;
+    font-size: 40px;
+   text-align: center;
+}
+
+
